@@ -1,0 +1,72 @@
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #e1e8f0; 
+  }
+  
+  .logo {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .vine {
+    color: #604d53; 
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+ 
+.add-task-button {
+  background-color: #007bff; 
+  color: #ffffff; 
+  border: none;
+  border-radius: 20px;
+  padding: 20px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .add-task-button {
+    width: 100%;
+  }
+} 
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .logo {
+      font-size: 1.2rem;
+    }
+    .nav-links {
+      display: none;
+    }
+  }
+
+  
